@@ -10,5 +10,5 @@
   "[cds]": {
     "editor.defaultFormatter": "SAPSE.vscode-cds"
   },
-  "cSpell.words": ["buildpack"]
+  "cSpell.words": ["antlr", "buildpack"]
 }
