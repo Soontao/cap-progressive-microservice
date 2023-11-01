@@ -34,5 +34,7 @@
     }
   }
 
+  // TODO: add common/tech services
+
   await require("@sap/cds/bin/serve")(Array.from(serveFiles));
 })();
