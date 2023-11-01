@@ -6,7 +6,7 @@ using {cuid} from '@sap/cds/common';
 
 extend service config.ConfigurationService with {
 
-  entity Dummy : cuid {}
+  entity Sample : cuid {}
 
 }
 
