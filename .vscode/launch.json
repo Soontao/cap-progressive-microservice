@@ -2,13 +2,18 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "cds serve",
+      "program": "${workspaceFolder}/node_modules/@sap/cds/bin/cds-serve",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node"
+    },
+    {
       "type": "node",
       "name": "vscode-jest-tests",
       "request": "launch",
       "runtimeArgs": [],
-      "args": [
-        "--runInBand"
-      ],
+      "args": ["--runInBand"],
       "cwd": "${workspaceFolder}",
       "console": "integratedTerminal",
       "internalConsoleOptions": "neverOpen",
