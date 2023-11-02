@@ -1,0 +1,10 @@
+[
+  {
+    "microservice": "config",
+    "services": ["cap.community.srv.config.ConfigurationService"]
+  },
+  {
+    "microservice": "resource",
+    "services": ["cap.community.srv.resource.ResourceService"]
+  }
+]
