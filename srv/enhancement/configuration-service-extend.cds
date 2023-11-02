@@ -1,13 +1,13 @@
 namespace cap.community.srv.enhancement.config;
 
 
-using {cap.community.srv.config} from '../configuration-service';
+using {cap.community.srv.config as c} from '../configuration-service';
 using {cuid} from '@sap/cds/common';
 
-extend service config.ConfigurationService with {
+extend service c.ConfigurationService with {
 
   entity Sample : cuid {}
 
 }
 
-annotate config.ConfigurationService with @custom.c.b;
+annotate c.ConfigurationService with @custom.c.b;
