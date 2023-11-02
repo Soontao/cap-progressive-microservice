@@ -1,6 +1,5 @@
 namespace cap.community.srv.enhancement.config;
 
-
 using {cap.community.srv.config as c} from '../configuration-service';
 using {cuid} from '@sap/cds/common';
 
