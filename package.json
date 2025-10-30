@@ -29,7 +29,7 @@
     "prettier": "^3.0.0"
   },
   "dependencies": {
-    "@sap/cds": "^8.0.0",
+    "@sap/cds": "^9.0.0",
     "glob": "^11.0.0"
   }
 }
